@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section>
+    <h2>Завдання 1</h2>
+    <div class="task-content">
+        <div class="form-container">
+            <h3>Форма для заповнення</h3>
+            <form class="task-form">
+                <label>
+                    ПІБ
+                    <input class="invalid" name="name" type="text" placeholder="ПІБ">
+                </label>
+                <label>
+                    Варіант
+                    <input name="age" type="number" min="0" max="99" placeholder="Варіант">
+                </label>
+                <label>
+                    Група
+                    <input name="group" type="text" placeholder="Група">
+                </label>
+                <label>
+                    Телефон
+                    <input name="phone" type="text" placeholder="Телефон">
+                </label>
+                <label>
+                    ID-card
+                    <input name="idCard" type="text" placeholder="ID-card">
+                </label>
+                <button type="submit">Підтвердити</button>
+            </form>
+        </div>
+        <div class="result-container">
+            <h3>Введені дані</h3>
+            <p>Після підтвердження тут будуть відображені введені вами дані</p>
+            <ul class="result">
+                <li>ПІБ: <span class="name"></span></li>
+                <li>Варіант: <span class="age"></span></li>
+                <li>Група: <span class="group"></span></li>
+                <li>Телефон: <span class="phone"></span></li>
+                <li>ID-card: <span class="idCard"></span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <h2>Завдання 2</h2>
+    <label for="colorPicker">
+        Обраний колір:
+        <input type="color" id="colorPicker">
+    </label>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

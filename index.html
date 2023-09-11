@@ -14,7 +14,7 @@
             <form class="task-form">
                 <label>
                     ПІБ
-                    <input class="invalid" name="name" type="text" placeholder="ПІБ">
+                    <input name="name" type="text" placeholder="ПІБ">
                 </label>
                 <label>
                     Варіант
@@ -35,26 +35,74 @@
                 <button type="submit">Підтвердити</button>
             </form>
         </div>
-        <div class="result-container">
+        <div class="result">
             <h3>Введені дані</h3>
-            <p>Після підтвердження тут будуть відображені введені вами дані</p>
-            <ul class="result">
-                <li>ПІБ: <span class="name"></span></li>
-                <li>Варіант: <span class="age"></span></li>
-                <li>Група: <span class="group"></span></li>
-                <li>Телефон: <span class="phone"></span></li>
-                <li>ID-card: <span class="idCard"></span></li>
-            </ul>
+            <div class="result-container">
+                <p>Після підтвердження, у випадку успішної валідації, тут будуть відображені введені вами дані</p>
+            </div>
         </div>
     </div>
 </section>
 <section>
     <h2>Завдання 2</h2>
-    <label for="colorPicker">
-        Обраний колір:
-        <input type="color" id="colorPicker">
-    </label>
+    <div class="table-container">
+        <label for="color-picker">
+            Обраний колір:
+            <input type="color" id="color-picker">
+        </label>
+        <table class="task-table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+                <td>34</td>
+                <td>35</td>
+                <td>36</td>
+            </tr>
+        </table>
+    </div>
 </section>
-<script src="script.js"></script>
+<script src="form.js"></script>
+<script src="table.js"></script>
 </body>
 </html>
